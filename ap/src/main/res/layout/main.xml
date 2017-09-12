@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.thinkmore.test.views.MyScrollView
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		>
+
+		<RelativeLayout
+			android:id="@+id/main_relative_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			>
+			<!--<ListView-->
+				<!--android:id="@+id/code_list"-->
+				<!--android:background="#00000000"-->
+				<!--android:layout_width="match_parent"-->
+				<!--android:layout_height="wrap_content"-->
+				<!--android:divider="@drawable/divider_list"-->
+				<!--/>-->
+
+			<!--<Button-->
+				<!--android:layout_width="match_parent"-->
+				<!--android:layout_height="wrap_content"-->
+				<!--android:onClick="finish"-->
+				<!--android:text="确定提交"-->
+				<!--android:layout_below="@id/main_relative_layout"-->
+				<!--android:background="#f00"-->
+				<!--/>-->
+
+		</RelativeLayout>
+
+
+		<!--<Button-->
+			<!--android:layout_width="wrap_content"-->
+			<!--android:layout_height="wrap_content"-->
+			<!--android:layout_gravity="center_horizontal"-->
+			<!--android:onClick="finish"-->
+			<!--android:text="清除选项"-->
+			<!--android:layout_below="@id/main_relative_layout"-->
+		<!--/>-->
+
+	</LinearLayout>
+
+</cn.thinkmore.test.views.MyScrollView>
